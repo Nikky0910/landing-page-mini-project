@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+div.wrapper {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav {
+    position: relative;
+    width: 100%;
+    background-color:hsl(173, 36%, 25%);
+    border-bottom: 10px solid hsl(11, 77%, 80%);
+    text-align: right;
+    padding: 0.5rem 0;
+}
+ul {
+    margin: 0.5rem 0;
+}
+ul li,
+ul li a {
+    display: inline;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li:hover,
+ul li a:hover {
+    color: hsl(11, 77%, 80%);
+}
+ul li a:active {
+    color: hsl(11, 96%, 72%);
+}
+main {
+    margin-top: 60px;
+}
+section {
+    padding: 1rem;
+    text-align: center;
+}
+section h1 {
+    padding: 0.5rem;
+    font-size: 3rem;
+}
+section img {
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 1.5rem 0.02rem hsl(173, 36%, 25%);
+}
+section h3 {
+    padding: 0.7rem 0 0.2rem 0;
+    font-style: italic;
+    font-weight: 500;
+}
+.form-section {
+    background-color: hsl(11, 77%, 80%);
+    border-top: 10px solid hsl(173, 36%, 25%);
+    box-sizing: border-box;
+    padding-bottom: 3rem;
+}
+.form-section form {
+    padding: 0.5rem 0;
+    border: 0.07rem solid hsl(173, 36%, 25%);
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 1rem; 
+}
+form div {
+    padding: 0.5rem 0;
+}
+.form-section h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.button input {
+    padding: 0.2rem 2rem; 
+    font-size: 1.2rem;
+    border: 0.1rem solid hsl(40, 13%, 87%);
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem hsl(18, 5%, 40%);
+    cursor: pointer;
+    background-color: hsl(40, 8%, 85%);
+    font-weight: normal;
+}
+.button input:hover {
+    background-color: hsl(10, 30%, 96%);
+}
+.button input:active {
+    margin-top: 0.2rem;
+    padding: 0.2rem 2rem; 
+    font-size: 1.2rem;
+    color:hsl(0, 100%, 99%);
+    border: 0.1rem solid hsl(30, 2%, 22%);
+    background-color: hsl(30, 2%, 22%);
+}
+footer {
+    padding: 1rem 0;
+    text-align: center;
+    background-color: hsl(173, 36%, 25%);
+}
+footer h3 {
+    font-weight: 500;
+    font-style: italic;
+    color:white;
+}
+#name,
+#email {
+    text-align: center;
+    font-style: italic;
+    width: 70%;
+    padding: 0.1rem;
+}
